@@ -5,7 +5,7 @@ body {
     background-image: url('background_index.jpg'); /* Path to your image */
     background-size: cover;       /* Scales image to cover entire area */
     background-repeat: no-repeat; /* Prevents tiling */
-    background-color: rgb(37, 182, 190); /* Fallback color */
+    background-color:rgb(20, 5, 20); /* Fallback color */
 }
         
         
