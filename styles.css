@@ -62,7 +62,7 @@ h1 {
   border: 1px solid rgba(255, 255, 255, 0.3);  /* Subtle border */
   color: #fff;                                /* Text color for contrast */
   max-width: 600px;
-  margin: 40px 0px 0px 40px;
+  margin: 40px;
   position: center;
 }
 
