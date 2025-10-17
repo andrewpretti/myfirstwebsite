@@ -70,11 +70,11 @@ h1 {
     backdrop-filter: blur(10px);                /* Blur the background behind */
     -webkit-backdrop-filter: blur(10px);        /* Safari support */
     border-radius: 10px;                        /* Rounded corners */
-    padding: 10px 0px 0px 10px;
+    padding-left: 10px;
     border: 1px solid rgba(255, 255, 255, 0.3);  /* Subtle border */
     color: #fff;                                /* Text color for contrast */
-    max-width: 480px;
-    margin: 0px;
+    max-width: 240px;
+    margin-left: 0px;
     position: center;
 }
 
