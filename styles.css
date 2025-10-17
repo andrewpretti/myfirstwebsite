@@ -1,9 +1,67 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 20px;
+    margin: 0px;
+    height: 100%;
+    background-image: url('background_index.jpg'); /* Path to your image */
+    background-size: cover;       /* Scales image to cover entire area */
+    background-repeat: no-repeat; /* Prevents tiling */
+    background-color: rgb(37, 182, 190); /* Fallback color */
 }
         
         
 h1 {
-    color: #333;
+    color: white;
+    padding-top: 0px;
+    padding-left: 10px;
  }
+
+ ul {
+    list-style-type: none;
+    padding: 20px;
+    margin: 0px;
+
+ }
+
+ li {
+    color: #f4f4f4;
+    display: inline;
+    padding-right: 50px;
+    margin: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+ }
+
+ a {
+    text-decoration: none;
+    color: #f4f4f4;
+ }
+
+ p {
+    color: #f4f4f4;
+    padding: 10px;
+ }
+
+ .glass-header {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(255, 255, 255, 0));       /* Semi-transparent white */
+  backdrop-filter: blur(2px);                /* Blur the background behind */
+  -webkit-backdrop-filter: blur(10px);        /* Safari support */
+  border-radius: 0px;                        /* Rounded corners */
+  padding: 0px;
+  padding-bottom: 30px;
+  border: px solid rgba(255, 255, 255, 0.3);  /* Subtle border */
+  color: #fff;                                /* Text color for contrast */
+  margin: 0px;
+ }
+
+ .glass-paragraph {
+  background: rgba(168, 192, 192, 0.25);       /* Semi-transparent white */
+  backdrop-filter: blur(10px);                /* Blur the background behind */
+  -webkit-backdrop-filter: blur(10px);        /* Safari support */
+  border-radius: 10px;                        /* Rounded corners */
+  padding: 10px 0px 0px 10px;
+  border: 1px solid rgba(255, 255, 255, 0.3);  /* Subtle border */
+  color: #fff;                                /* Text color for contrast */
+  max-width: 600px;
+  margin: 40px 0px 0px 40px;
+  position: center;
+}
