@@ -20,7 +20,7 @@ answer.style.display = "none";
 */
 
 let tabella = [["Gerardo", "Andrea"],["Andrea", "Fabio"],["Fabio", "Susanna"],["Susanna", "Gianluca"],["Gianluca", "Anna"],["Anna", "Luigi"],["Luigi", "Gerardo"]];
-let aliases = [["GerryScotti6"],["ZioDonald2"],["BryanCristatnte4"],["Susususu1"],["DeSica7"],["Zia3"],["Gigi5"]];
+let aliases = ["GerryScotti1","ZioDonald2","BryanCristatnte4","Susususu3","ChristianDeSica5","ZiaAnna6","GigiDiMaio7"];
 // Click event
 btn.addEventListener('click', () => {
     answer.style.display = "block";
@@ -31,7 +31,8 @@ btn.addEventListener('click', () => {
         output.textContent = "Hey king, I am sorry but you are not part of this year's secret santa. Keep slaying tho!";
     }
     for (let i = 0; i <= 6; i++) {
-        if (strcmp(input.value.toLowerCase(), tabella[i][0].toLowerCase()) === 0) { 
+        // if (strcmp(input.value.toLowerCase(), tabella[i][0].toLowerCase()) === 0) { 
+        if (strcmp(input.value, aliases[i]) === 0) { 
             output.textContent = "Hi " + tabella[i][0] + " you have to find a present for " + tabella[i][1] + "!";
         }
     }
