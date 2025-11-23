@@ -20,7 +20,7 @@ answer.style.display = "none";
 */
 
 let tabella = [["Gerardo", "Andrea"],["Andrea", "Fabio"],["Fabio", "Susanna"],["Susanna", "Gianluca"],["Gianluca", "Anna"],["Anna", "Luigi"],["Luigi", "Gerardo"]];
-
+let aliases = [["GerryScotti6"],["ZioDonald2"],["BryanCristatnte4"],["Susususu1"],["DeSica7"],["Zia3"],["Gigi5"]];
 // Click event
 btn.addEventListener('click', () => {
     answer.style.display = "block";
