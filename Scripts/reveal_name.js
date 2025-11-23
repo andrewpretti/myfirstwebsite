@@ -28,7 +28,7 @@ btn.addEventListener('click', () => {
         output.textContent = "Please enter a valid name";
     }
     else {
-        output.textContent = "Hey king, I am sorry but you are not part of this year's secret santa";
+        output.textContent = "Hey king, I am sorry but you are not part of this year's secret santa. Keep slaying tho!";
     }
     for (let i = 0; i <= 6; i++) {
         if (strcmp(input.value.toLowerCase(), tabella[i][0].toLowerCase()) === 0) { 
