@@ -18,9 +18,14 @@ answer.style.display = "none";
       })
       .catch(error => console.error('Errore nel caricamento del file:', error));
 */
-
+/*
 let tabella = [["Gerardo", "Andrea"],["Andrea", "Fabio"],["Fabio", "Susanna"],["Susanna", "Gianluca"],["Gianluca", "Anna"],["Anna", "Luigi"],["Luigi", "Gerardo"]];
 let aliases = ["GerryScotti1","ZioDonald2","BryanCristatnte4","Susususu3","ChristianDeSica5","ZiaAnna6","GigiDiMaio7"];
+*/
+
+let tabella = [["Gerardo", "Andrea"],["Andrea", "Fabio"],["Fabio", "Susanna"],["Susanna", "Anna"],["Anna", "Luigi"],["Luigi", "Gianluca"],["Gianluca", "Gerardo"]];
+let aliases = ["GerryScotti1","ZioDonald2","BryanCristatnte4","Susususu3","ZiaAnna6","GigiDiMaio7","ChristianDeSica5"];
+
 // Click event
 btn.addEventListener('click', () => {
     answer.style.display = "block";
@@ -30,6 +35,7 @@ btn.addEventListener('click', () => {
     else {
         output.textContent = "Hey king, I am sorry but you are not part of this year's secret santa. Keep slaying tho!";
     }
+    
     for (let i = 0; i <= 6; i++) {
         // if (strcmp(input.value.toLowerCase(), tabella[i][0].toLowerCase()) === 0) { 
         if (strcmp(input.value, aliases[i]) === 0) { 
